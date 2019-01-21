@@ -2,7 +2,6 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://amawai.github.io/personal-website",
   "devDependencies": {
     "react-scripts": "2.1.3"
   },
@@ -18,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "aws s3 cp build/ s3://amandawai.com--recursive",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
