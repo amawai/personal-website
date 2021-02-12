@@ -29,7 +29,6 @@ class App extends Component {
             AMANDA WAI
             <p className='subtitle'>
             Software Engineer,&nbsp;
-            Graduating May 2019
             <p>
               <a href="https://github.com/amawai">
                 <img height="40" width="40" src={GithubImage} alt="Github"/>
