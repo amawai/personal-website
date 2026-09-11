@@ -28,7 +28,7 @@ class App extends Component {
           <div className='nametag'>
             AMANDA WAI
             <p className='subtitle'>
-            Software Engineer,&nbsp;
+            Software Engineer at GitHub
             <p>
               <a href="https://github.com/amawai">
                 <img height="40" width="40" src={GithubImage} alt="Github"/>
@@ -38,7 +38,7 @@ class App extends Component {
                 <img height="40" width="40" src={LinkedInImage} alt="LinkedIn"/>
               </a>
               &nbsp;&nbsp;
-              <a href="https://drive.google.com/file/d/1kljmziZ-j1F48tW_bmyGIOlZkKdTMSAL/view">
+              <a href="https://drive.google.com/file/d/1T7kKElS3Vtw3YZ15VCwMkVv1GojLkxvc/view">
                 <img height="40" width="40" src={CvInfoImage} alt="CV"/>
               </a>
             </p>
